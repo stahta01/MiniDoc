@@ -36,7 +36,6 @@
 					<Add option="--enable-auto-import" />
 					<Add option="`$(WX_CONFIG) --libs`" />
 					<Add library="codeblocks" />
-					<Add library="wxscintilla_cb" />
 					<Add directory="$(#CB.bin)" />
 				</Linker>
 				<ExtraCommands>
